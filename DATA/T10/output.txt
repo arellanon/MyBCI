@@ -1,0 +1,312 @@
+2021-03-20 21:48:54.175087
+[[16  0]
+ [16  0]]
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67        16
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.50        32
+   macro avg       0.25      0.50      0.33        32
+weighted avg       0.25      0.50      0.33        32
+
+2021-03-20 21:49:18.075605
+[[10  6]
+ [11  5]]
+              precision    recall  f1-score   support
+
+           0       0.48      0.62      0.54        16
+           1       0.45      0.31      0.37        16
+
+    accuracy                           0.47        32
+   macro avg       0.47      0.47      0.46        32
+weighted avg       0.47      0.47      0.46        32
+
+2021-03-20 21:49:46.110968
+[[ 0 16]
+ [ 1 15]]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        16
+           1       0.48      0.94      0.64        16
+
+    accuracy                           0.47        32
+   macro avg       0.24      0.47      0.32        32
+weighted avg       0.24      0.47      0.32        32
+
+2021-03-23 00:21:13.075934
+[[ 0 16]
+ [ 1 15]]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        16
+           1       0.48      0.94      0.64        16
+
+    accuracy                           0.47        32
+   macro avg       0.24      0.47      0.32        32
+weighted avg       0.24      0.47      0.32        32
+
+2021-03-23 00:24:30.325274
+[[16  0]
+ [16  0]]
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67        16
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.50        32
+   macro avg       0.25      0.50      0.33        32
+weighted avg       0.25      0.50      0.33        32
+
+2021-03-23 00:36:01.048095
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-23 00:37:44.406282
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-23 00:37:55.934772
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-23 00:38:15.236998
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-23 00:38:25.279186
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-23 01:01:29.325229
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-27 00:27:31.264411
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-27 12:16:45.546710
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-03-28 00:22:10.097925
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:21:51.720908
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:23:25.173584
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:25:30.542129
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:32:10.100108
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:40:09.575803
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:41:39.463469
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 02:53:47.964563
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 03:26:28.390312
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 03:41:11.721173
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-04-18 04:03:54.602143
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-05-01 23:22:43.838522
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+
+2021-05-15 00:07:52.502191
+[[ 9  7]
+ [ 2 14]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.56      0.67        16
+           1       0.67      0.88      0.76        16
+
+    accuracy                           0.72        32
+   macro avg       0.74      0.72      0.71        32
+weighted avg       0.74      0.72      0.71        32
+

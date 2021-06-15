@@ -1,0 +1,72 @@
+2021-03-14 02:06:18.691393
+[[1 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+          -2       1.00      1.00      1.00         1
+          -1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2021-03-14 02:07:11.642644
+[[1 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+          -2       1.00      1.00      1.00         1
+          -1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2021-03-23 01:06:31.136341
+[[1 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2021-03-24 21:48:32.211738
+[[1 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2021-03-27 00:27:11.599714
+[[1 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2021-04-18 03:24:17.900817
+[[1 0]
+ [0 1]]
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
