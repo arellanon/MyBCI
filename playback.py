@@ -61,7 +61,7 @@ def main():
         cyton.start_stream()
         while True:
             ## Devuelve como minimo 250 samples
-            data_stream = cyton.poll(250)  
+            data_stream = cyton.poll(250)
             ## Append (columna) stream a data 
             ## ch x sample (23 x N)
             data = data_stream if data is None else np.append(data, data_stream, axis=1)
