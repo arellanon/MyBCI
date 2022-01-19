@@ -44,7 +44,7 @@ def main():
     
     low_freq, high_freq = 7., 30.
     path_raiz = 'DATA/'
-    name_model = 'T10'
+    name_model = 'T20'
     #path modelo
     path_model = path_raiz + name_model
     #Cargamos modelo
@@ -55,14 +55,34 @@ def main():
         print("Inicio...")
         cyton = StreamData.CytonBoard("/dev/ttyUSB0")
         cyton.start_stream()
+        resta = 0
+        data_aux = None
+        time.sleep(1)  ## Updating the window in every one second
+        samples= 501
         while True:
-            data = cyton.poll(250)  ## Polling for 250 samples
-            #timestamp
-            ts=data[22][0]
-            #Seleccionamos los canales egg
-            data = data[1:9, :]
             
-            raw=loadDatos(data, 'ch_names.txt')
+            poll_sample = (samples * 2) - resta
+            data = cyton.poll(poll_sample)  ## Polling for samples
+
+            #Seleccionamos los canales egg
+            #data = data[1:9, :]
+            data_new = data[:,: poll_sample ]
+            
+            if data_aux is None:
+                data_new = data_new                
+            else:
+                data_new = np.append(data_aux, data_new, axis=1)
+                        
+            data_aux = data[:, poll_sample :]
+            
+            resta = data_aux.shape[1]
+            
+            #timestamp
+            ts=data_new[22][0]
+            #Seleccionamos los canales egg
+            data_new = data_new[1:9, :]
+            
+            raw=loadDatos(data_new, 'ch_names.txt')
             #Seleccionamos los canales a utilizar
             raw.pick_channels(['P3', 'P4', 'C3', 'C4','P7', 'P8', 'O1', 'O2'])
             
@@ -71,18 +91,26 @@ def main():
             raw.set_montage(montage)
             
             # Se aplica filtros band-pass
-            raw.filter(low_freq, high_freq, fir_design='firwin', skip_by_annotation='edge')
-            data = raw.get_data()
+            raw.filter(low_freq, high_freq, fir_design='firwin', skip_by_annotation='edge', verbose='critical')
             
-            data1= data[:,:251]
             
-            data = np.array([data1])
+            data_raw = raw.get_data(verbose='critical') #array de 2 dimensiones
+            
+            data_raw1 = np.array( [ data_raw[:,:samples] ] )
+            data_raw2 = np.array( [ data_raw[:, samples//2 : samples + samples//2 ] ] )
+            data_raw3 = np.array( [ data_raw[:,samples:] ])
+            #data_raw = np.array([data_raw])  #array de 3 dimensiones
+            
             #data = np.array([data_out])
-            result=model.predict(data)
+            result1=model.predict(data_raw1)
+            result2=model.predict(data_raw2)
+            result3=model.predict(data_raw3)
+            #print("data_cnt: ", data_cnt.shape)
+            #print(result, " - ", data_raw.shape, " - ", data.shape, "-", data_new.shape," - ", data_aux.shape, " - ", data_aux.shape[1], ' - ', resta , '-', datetime.fromtimestamp(ts) )
+            print( data_raw.shape, " - ", result1, " - ", data_raw1.shape, '-', result2, " - ", data_raw2.shape, '-', result3, " - ", data_raw3.shape,' - ', resta , '-', datetime.fromtimestamp(ts) )
+            #print( data_raw.shape, " - ",  data_raw1.shape, '-', data_raw3.shape,' - ', resta , '-', datetime.fromtimestamp(ts) )
             
-            print(result)
-            
-            time.sleep(1)  ## Updating the window in every one second
+            #time.sleep(1)  ## Updating the window in every one second
             
         cyton.stop_stream()
     except ServiceExit:

@@ -54,7 +54,7 @@ def loadDatos(data_cnt, ch_name_file):
     freq=250
     #Se carga la matriz de datos
     #data_cnt=data_cnt.transpose()
-    print("data_cnt: ", data_cnt.shape)
+    #print("data_cnt: ", data_cnt.shape)
     
     #Se carga los nombre de los caneles
     ch_names_txt = open(ch_name_file, "r")
@@ -62,6 +62,6 @@ def loadDatos(data_cnt, ch_name_file):
     for i in range(len(ch_names)):
         ch_names[i]=ch_names[i].strip()
     info = mne.create_info(ch_names, freq, 'eeg')
-    raw = mne.io.RawArray(data_cnt, info, first_samp=0, copy='auto', verbose=None)
+    raw = mne.io.RawArray(data_cnt, info, first_samp=0, copy='auto', verbose='critical')
     
     return raw
